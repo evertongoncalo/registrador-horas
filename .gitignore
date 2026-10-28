@@ -1,0 +1,8 @@
+# executável gerado: use build.ps1 (ou publique em Releases)
+*.exe
+obj/
+
+# bancos e exportações locais
+*.db
+*.db-journal
+*.csv
