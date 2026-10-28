@@ -20,7 +20,9 @@ Registrador de tempo para **freelancers** que atendem várias empresas no mesmo 
 
 ## Como obter o programa
 
-O executável não fica versionado no repositório. Para gerar o `RegistradorHoras.exe` basta rodar, na pasta do projeto:
+**Baixar pronto:** pegue o `RegistradorHoras.exe` na [página de Releases](https://github.com/evertongoncalo/registrador-horas/releases/latest), copie para qualquer pasta e abra. Como o arquivo não é assinado digitalmente, o Windows pode mostrar o aviso "O Windows protegeu seu PC": clique em **Mais informações** e depois em **Executar assim mesmo**. O SHA-256 de cada versão está nas notas da Release.
+
+**Ou compilar você mesmo:** o executável não fica versionado no repositório. Para gerar o `RegistradorHoras.exe` basta rodar, na pasta do projeto:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File build.ps1
